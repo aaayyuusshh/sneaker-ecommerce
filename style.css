@@ -1,1 +1,61 @@
-/* styling sheet */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(25, 26, 27);
+    color: white;   /* makes all text in the container white */
+    padding: 2px 40px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between; /* main axis styling */
+    align-items: center;    /* cross axis styling */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logoYeezy{
+    width: 90px;
+    max-height: 100%;
+    transform: rotate(15deg);
+}
+
+.header{
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
+
+
+
+.search{
+    display:flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: white;
+}
+
+nav p{
+    font-size: 20px;
+    /* text-decoration: underline;
+    text-decoration-color: gray; */
+    border-bottom: 2px solid rgb(178, 245, 204);
+    cursor: pointer;
+
+}
