@@ -1,5 +1,5 @@
 # sneaker-ecommerce
-Currently building **"sneak-a-peek"**, a modern looking sneaker selling ecommerce platform with the latest trendy shoes and deals for you!
+Currently building **"sneak-a-peek"**, a modern looking buy & sell sneaker ecommerce platform with the latest trendy shoes and deals for you!
 
 **PROGRESS TRACKING ⬇**
 
