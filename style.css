@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 nav{
     background-color: rgb(25, 26, 27);
     color: white;   /* makes all text in the container white */
@@ -32,8 +33,6 @@ nav{
     margin-left: -15px;
     margin-bottom: 5px;
 }
-
-
 
 .search{
     display:flex;
@@ -77,4 +76,48 @@ li{
     color: rgba(255, 255, 255, 0.767);
     font-size:1.1em;
     font-weight: 400;
+}
+
+.slider{
+    background: url(https://images.unsplash.com/photo-1527066236128-2ff79f7b9705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+    background: url(https://images.unsplash.com/photo-1486067267320-cd91ee9ef64c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    /* Full height */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#yeezyImg{
+    transform: rotate(35deg);
+}
+
+#af1{
+    transform: rotate(27deg);
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 60px;
+    font-weight: 800;
+
+    color: rgb(109, 106, 106);
 }
