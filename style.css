@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-
 nav{
     background-color: rgb(25, 26, 27);
     color: white;   /* makes all text in the container white */
@@ -81,7 +80,9 @@ li{
 .slider{
     background: url(https://images.unsplash.com/photo-1527066236128-2ff79f7b9705?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
     background: url(https://images.unsplash.com/photo-1486067267320-cd91ee9ef64c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-
+    /* background: url(https://images.unsplash.com/photo-1533135091724-62cc5402aa20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
+    /* background: url(https://images.unsplash.com/photo-1504672281656-e4981d70414b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
+    /* background: url(https://images.unsplash.com/photo-1546864909-fb2cb357c00a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
     /* Full height */
 
@@ -112,12 +113,59 @@ li{
     position: relative;
 }
 
+.sliderImg{
+    z-index: 1;
+}
+
+.slideBg{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    background-color: rgb(220, 228, 220);
+    border-radius: 10%;
+    position: absolute;
+}
+
+/* @learning-objective: 
+- "position" is used to move elements in the screen
+- position is relative to the parent 
+- position is absolute in the child */
 .sliderTitle{
     position: absolute;
     top: 10%;
     right: 10%;
     font-size: 60px;
     font-weight: 800;
+    text-align: center;
+    color: rgb(87, 85, 85);
+    z-index: 1;
+ }
 
-    color: rgb(109, 106, 106);
-}
+ .sliderPrice{
+     position: absolute;
+     top: 20%;
+     left: 20%;
+     font-size: 35px;
+     font-weight: 400;
+     padding: 0.3em;
+     border: 2px solid rgb(19, 141, 37);
+     border-radius: 15%;
+     color:rgb(19, 141, 37);
+     z-index: 1;
+ }
+
+ .buyButton{
+     position: absolute;
+     z-index: 1;
+     top: 45%;
+     right: 16.5%;
+     padding: 1em;
+     border-color: rgb(0, 0, 0);
+     color: rgb(88, 88, 88);
+     font-weight: 1000;
+     font-size: 1.2em;
+     border-radius: 10px;
+     cursor: pointer;
+     background-color: rgb(204, 224, 207);
+ }
+
