@@ -90,6 +90,8 @@ li{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    overflow: hidden;
 }
 
 #yeezyImg{
@@ -103,6 +105,7 @@ li{
 .sliderWrapper{
     display: flex;
     width: 500vw;
+    overflow: hidden;
 }
 
 .sliderItem{
@@ -143,8 +146,8 @@ li{
 
  .sliderPrice{
      position: absolute;
-     top: 20%;
-     left: 20%;
+     top: 15%;
+     left: 25%;
      font-size: 35px;
      font-weight: 400;
      padding: 0.3em;
@@ -161,11 +164,39 @@ li{
      right: 16.5%;
      padding: 1em;
      border-color: rgb(0, 0, 0);
-     color: rgb(88, 88, 88);
+     color: rgb(255, 255, 255);
      font-weight: 1000;
      font-size: 1.2em;
      border-radius: 10px;
      cursor: pointer;
-     background-color: rgb(204, 224, 207);
+     background-color: rgb(87, 85, 85);
  }
 
+.buyButton:hover{
+    background-color: white;
+    color: rgb(87,85,85);
+}
+
+/* individual sliderItem styling */
+
+.sliderItem:nth-child(2) .sliderTitle {
+    right: 14.5%;
+}
+.sliderItem:nth-child(2) .slideBg {
+    background-color:rgb(207, 229, 235);
+}
+
+.sliderItem:nth-child(3) .sliderTitle {
+    right: 11.6%;
+}
+.sliderItem:nth-child(3) .slideBg {
+    background-color:rgb(228, 228, 228);
+}
+
+.sliderItem:nth-child(4) .sliderTitle {
+    right: 13.8%;
+}
+
+.sliderItem:nth-child(5) .sliderTitle {
+    right: 11%;
+}
