@@ -1,11 +1,9 @@
-const sliderWrapper = document.querySelector(".sliderWrapper");
-const listItems = document.querySelectorAll(".listItem");
+const wrapper = document.querySelector(".sliderWrapper")
+const listItem = document.querySelectorAll(".listItem");
 
-console.log(sliderWrapper);
-//sliderWrapper.style.transform = "translateX(00vw)"; //initial point starts from px value
+listItem.forEach((item, index) => {
+    item.addEventListener("click", () => {
+        wrapper.style.transform = `translateX(${-100 * index}vw)`;
 
-listItems.forEach((item, index) => {
-     item.addEventListener("click", ()=> {
-        sliderWrapper.style.transform = `translateX(${-100 * index}vw)`;
-     });
+    });
 });
