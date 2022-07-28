@@ -215,3 +215,29 @@ li{
 .sliderItem:nth-child(5) .slideBg {
     background-color:rgb(214, 231, 222);
 }
+
+.features{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:50px;
+}  
+
+.features{
+   text-align: center;
+}
+
+/* so far, this is the best way to resize images */
+.featureIcon{
+    width: 50px;
+    max-height: 100%;
+}
+
+.feature h2{
+    font-size: 20px;
+    margin: 20px;
+} 
+
+.featureDescription{
+    color: grey;
+}
