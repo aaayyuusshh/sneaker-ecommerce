@@ -93,11 +93,11 @@ li{
     overflow: hidden;
 }
 
-#yeezyImg{
+.yeezyImg{
     transform: rotate(30deg);
 }
 
-#af1{
+.af1Img{
     transform: rotate(27deg);
 }
 
@@ -240,4 +240,122 @@ li{
 
 .featureDescription{
     color: grey;
+}
+
+/* why not just use display:flex & margins to style this instead of position+top/right?? */
+.product{
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+}
+
+.productImg{
+    width: 45%;
+}
+
+.productDetails{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 40%;
+    padding: 100px;
+}
+
+.productTitle{
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.productPrice{
+    margin-bottom: 15px;
+}
+
+.productDescription{
+    color: gray;
+    margin-bottom: 25px;
+    width: 70%;
+}
+
+.productColours{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.colourBox{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.colourBox:nth-child(2){
+    background-color: blue;
+}
+
+.productSizes{
+    display: flex;
+    /* why not? */
+    /* justify-content: space-between; */ 
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+.sizeBox{
+    border: solid 1px black;
+    font-weight: 500;
+    margin-right: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.productButton{
+    margin-left: 280px;
+    float: center;
+    padding : 10px 20px;
+    border-radius: 10px;
+    background-color:dark-gray;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.productButton:hover{
+    font-weight: 1000;
+    padding : 13px 23px;
+    border: 2px solid black;
+}
+
+.sizeBox:hover{
+    font-weight: 1000;
+}
+
+.iFramerWrapper{
+   background-color: red;
+   width: 10px;
+   height: 10px;
+   border: 4px solid black;
+}
+
+.iFrameWrapper{
+    padding: 10px;
+    margin-top: 40px;
+    display: inline-block;
+    border: 1px solid black;
+    background: white;
+    box-shadow: 30% 50%;
+    opacity: 60%;
+}
+
+.iFrameWrapper:hover{
+    opacity: 100%;
+    transition: opacity 2s;
+}
+
+.iFrameWrapper p{
+    margin-bottom: 5px;
+    font-size: 13px;
 }
