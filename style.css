@@ -582,3 +582,30 @@ input::placeholder {
     border: 5px solid rgb(197, 193, 193);
     border-radius: 10px;
 }
+
+.customDescription {
+    border: 1px solid rgb(194, 190, 190);
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 540px;
+    margin-top: 40px;
+    padding: 15px;
+   
+}
+
+.description {
+    font-weight: 500;
+    color: rgb(117, 116, 116);
+}
+
+.bookNow {
+    margin-top: 20px;
+    margin-left: 260px;
+    cursor: pointer;
+    padding : 10px 20px;
+    border-radius: 10px;
+    background-color:dark-gray;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+}
