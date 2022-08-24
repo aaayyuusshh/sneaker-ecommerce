@@ -22,7 +22,7 @@ listItem.forEach((item,index) => {
 
         if (index == 0){
             productTitle.textContent = "AIR JORDANS";
-            productImg.src = "img/jordan.png"; 
+            productImg.src = "/img/jordan.png"; 
             productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$298";
@@ -31,7 +31,7 @@ listItem.forEach((item,index) => {
         } else if (index == 1){
             productTitle.textContent = "YEEZYS";
             //need to add extra margins to the yeezy pic
-            productImg.src = "img/yeezy2.png"; 
+            productImg.src = "/img/yeezy2.png"; 
             //productImg.style.marginTop("50px");
             productImg.classList.add("extraMargin");
             productImg.classList.add("yeezyImg2");
@@ -41,7 +41,7 @@ listItem.forEach((item,index) => {
             historyVideo.src = "https://en.wikipedia.org/wiki/Adidas_Yeezy";
         } else if (index == 2){
             productTitle.textContent = "AIR FORCES";
-            productImg.src = "img/af1.png";
+            productImg.src = "/img/af1.png";
              //need to add extra margins to the af1 pic
             productImg.classList.add("af1Img");
             productImg.classList.remove("yeezyImg2"); 
@@ -50,7 +50,7 @@ listItem.forEach((item,index) => {
             historyVideo.src = "https://en.wikipedia.org/wiki/Air_Force_(shoe)";
         } else if (index == 3){
             productTitle.textContent = "BLAZERS";
-            productImg.src = "img/blazer.png";
+            productImg.src = "/img/blazer.png";
             productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$140";
@@ -58,7 +58,7 @@ listItem.forEach((item,index) => {
             historyVideo.src = "https://en.wikipedia.org/wiki/Nike_Blazers";
         } else{
             productTitle.textContent = "CUSTOM DROPZ";
-            productImg.src= "img/hippie.png";
+            productImg.src= "/img/hippie.png";
             productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$180";
