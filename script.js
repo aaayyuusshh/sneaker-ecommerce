@@ -23,18 +23,18 @@ listItem.forEach((item,index) => {
         if (index == 0){
             productTitle.textContent = "AIR JORDANS";
             productImg.src = "img/jordan.png"; 
-            productImg.classList.remove("yeezyImg");
+            productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$298";
             productDescription.textContent = "Designed by Peter Moore, the Air Jordan 1 is the most influential shoe in sneaker history. Michael Jordan laced up a pair for the first time in 1984, changing the conversation around footwear permanently.";
             historyVideo.src = "https://en.wikipedia.org/wiki/Air_Jordan";
         } else if (index == 1){
             productTitle.textContent = "YEEZYS";
-            productTitle.classList.add= ('extraMargin');
+            //need to add extra margins to the yeezy pic
             productImg.src = "img/yeezy2.png"; 
             //productImg.style.marginTop("50px");
             productImg.classList.add("extraMargin");
-            productImg.classList.add("yeezyImg");
+            productImg.classList.add("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$789";
             productDescription.textContent = "Adidas Yeezy is a fashion collaboration between German sportswear company Adidas and American designer, rapper, entrepreneur and personality Kanye West."
@@ -42,15 +42,16 @@ listItem.forEach((item,index) => {
         } else if (index == 2){
             productTitle.textContent = "AIR FORCES";
             productImg.src = "img/af1.png";
+             //need to add extra margins to the af1 pic
             productImg.classList.add("af1Img");
-            productImg.classList.remove("yeezyImg"); 
+            productImg.classList.remove("yeezyImg2"); 
             productPrice.textContent = "$120"; 
             productDescription.textContent = "Designed by Bruce Kilgore and introduced in 1982, the Air Force 1 was the first ever basketball shoe to feature Nike Air technology, revolutionizing the game and sneaker culture forever.";
             historyVideo.src = "https://en.wikipedia.org/wiki/Air_Force_(shoe)";
         } else if (index == 3){
             productTitle.textContent = "BLAZERS";
             productImg.src = "img/blazer.png";
-            productImg.classList.remove("yeezyImg");
+            productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$140";
             productDescription.textContent = "The Nike Blazer Mid '77 channels the old-school look of Nike Basketball with a vintage midsole finish.Throwback style with modern materials means you can run, skip and jump in comfort.";
@@ -58,10 +59,24 @@ listItem.forEach((item,index) => {
         } else{
             productTitle.textContent = "CUSTOM DROPZ";
             productImg.src= "img/hippie.png";
-            productImg.classList.remove("yeezyImg");
+            productImg.classList.remove("yeezyImg2");
             productImg.classList.remove("af1Img");
             productPrice.textContent = "$180";
             productDescription.textContent = "sneak-a-peak has the best Canadian shoe designer freelancers creating custom pieces for you."
         }
     });
+});
+
+//opening & closing of the payment payment modal
+const paymentModal = document.querySelector(".paymentModal");
+const purchaseButton = document.querySelector(".productButton");
+const closeButton = document.querySelector(".closeButton");
+
+purchaseButton.addEventListener("click", () =>{
+    paymentModal.style.display = "flex";
+});
+
+closeButton.addEventListener("click", () => {
+    paymentModal.style.display = "none";
+
 });
