@@ -11,7 +11,7 @@
 <body>
 
     <nav>
-        <div class="top">
+        <div class="top" id="mainPage">
             <div class="logo">
                 <img class = "logoYeezy" src="img/j1g.png" alt="">
                 <h1 class= "header">sneak-a-peek</h1>
@@ -108,10 +108,11 @@
 
         <div class="productDetails">
             <h1 class="productTitle">AIR JORDANS</h1>
-            <h2 class="productPrice">$298</h2>
+            <h2 class="productPrice">$298</h1>
             <p class="productDescription">
                 Designed by Peter Moore, the Air Jordan 1 is the most influential shoe in sneaker history. Michael Jordan laced up a pair for the first time in 1984, changing the conversation around footwear permanently. 
             </p>
+           
             <div class="productColours">
                 <div class="colourBox"></div>
                 <div class="colourBox"></div>
@@ -128,9 +129,34 @@
                 <iframe class= "historyVideo" width="550" height="350" src="https://en.wikipedia.org/wiki/Air_Jordan" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-  
-    </div>
 
+        <!-- payment pop-up modal -->
+        <div class="paymentModal">
+            <h1 class="personalInfoTitle">Personal Information</h1>
+            <label for="name">Name and Surname</label>
+            <input type="text" id="name" class= "inputPersonalInfo" placeholder="Mary Jane">
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" class="inputPersonalInfo" placeholder="9873003409">
+            <label for="address">Address</label>
+            <input type="text" id="address" class="inputPersonalInfo" placeholder="88 Uni Street">
+
+            <h1 class="cardInfoTitle">Card Information</h1>
+            <div class="cardImgs">
+              <img src="/img/visa.png" alt="">
+              <img src="/img/master.png" alt="">
+            </div>
+            <input type="text" class= "inputCardName" placeholder="Name under Card">
+            <input type="text" class= "inputCardNumber" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" class= "inputCardInfo" placeholder="mm">
+                <input type="text" class= "inputCardInfo" placeholder="dd">
+                <input type="text" class= "inputCardInfo" placeholder="cvv">
+            </div>
+            <button class= "checkoutButton">Confirm Payment</button>
+            <div class="closeButton">x</div> 
+        </div>
+
+    </div>
     <script src= /script.js></script>
 </body>
 </html>
