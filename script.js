@@ -80,3 +80,16 @@ closeButton.addEventListener("click", () => {
     paymentModal.style.display = "none";
 
 });
+
+//opening & closing of the book now modal
+const bookNowModal = document.querySelector(".bookNowModal");
+const bookNowButton = document.querySelector(".bookNow");
+const closeButton2 = document.querySelector(".closeButton2");
+
+bookNowButton.addEventListener("click", () => {
+    bookNowModal.style.display = "flex";
+});
+
+closeButton2.addEventListener("click", () => {
+    bookNowModal.style.display = "none";
+});
