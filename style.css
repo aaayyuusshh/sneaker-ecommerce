@@ -486,3 +486,45 @@ input::placeholder {
     justify-content: center;
     cursor: pointer;
 }
+
+.titleSection {
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.titleSection h1 {
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+
+.gallerySection {
+    margin-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.imgContainer{
+    width: 33.3%;
+   
+}
+
+.imgContainer:nth-child(2) {
+    padding: 0 100px;
+}
+
+.galleryImg {
+    width: 450px;
+    height: auto;
+    opacity: 0.75;
+}
+
+.galleryImg2 {
+    width: 350px;
+    height: auto;
+    opacity: 0.75;
+}
