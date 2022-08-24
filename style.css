@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav{
     background-color: rgb(25, 26, 27);
     color: white;   /* makes all text in the container white */
@@ -95,6 +99,11 @@ li{
 
 .yeezyImg{
     transform: rotate(30deg);
+}
+
+.yeezyImg2{
+    transform: rotate(30deg);
+    margin-top: 100px;
 }
 
 .af1Img{
@@ -358,4 +367,122 @@ li{
 .iFrameWrapper p{
     margin-bottom: 5px;
     font-size: 13px;
+}
+
+.paymentModal {
+    width: 500px;
+    height: 570px;
+    position: absolute;
+    background-color: white;
+    /* centers the element */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* ------------------- */
+    padding: 20px 50px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.59); 
+    box-shadow: 1px 1px 15px 3px rgba(0,0,0,0.59);
+
+    /* don't display by default */
+    display: none;
+}
+
+.personalInfoTitle {
+    color: gray;
+    opacity: 0.4;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+label {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.inputPersonalInfo {
+    padding: 7px 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input::placeholder {
+    opacity: 0.4;
+}
+
+.cardImgs {
+    display: flex;
+    width: 10%;
+    height: 10%;
+}
+
+.cardImgs img {
+    padding-right: 10px;
+}
+
+.cardInfoTitle {
+    color: gray;
+    opacity: 0.4;
+    font-size: 25px;
+    padding-top: 7px;
+    /* padding-bottom: 5px; */
+}
+
+.inputCardName {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 7px 5px;
+    margin-top : 3px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.inputCardNumber {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 7px 0px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputCardInfo {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 7px 0px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.checkoutButton {
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+    background-color:rgb(37, 120, 214);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(223, 222, 222);
+    height: 23px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
 }
