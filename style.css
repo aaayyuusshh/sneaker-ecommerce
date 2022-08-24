@@ -700,6 +700,18 @@ footer h1 {
     font-size: 15px;
 }
 
+.sneakAPeek {
+    padding: 20px;
+    margin-top:50px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .right {
     flex: 1;
     margin-left: 300px;
