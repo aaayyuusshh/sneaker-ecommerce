@@ -699,3 +699,43 @@ footer h1 {
     color: rgb(58, 57, 57);
     font-size: 15px;
 }
+
+.right {
+    flex: 1;
+    margin-left: 300px;
+}
+
+.socials h1 {
+    padding-bottom: 8px;
+}
+
+.socials img {
+    width: 40px;
+    padding-right: 10px;
+    
+}
+
+.acceptedPayments h1 {
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.acceptedPayments img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.stores {
+    display: flex;
+    margin-top: -20px;
+}
+
+.stores img:nth-child(1) {
+    width: 120px;
+}
+.stores img:nth-child(2) {
+    width: 130px;
+}
+.copyright {
+    color: rgb(141, 141, 141);
+}
