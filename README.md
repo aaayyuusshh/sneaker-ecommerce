@@ -1,9 +1,10 @@
-<img width="1128" alt="Screen Shot 2022-08-24 at 11 14 02 PM" src="https://user-images.githubusercontent.com/80851741/186580461-d7275341-9f07-41db-8402-549b76bcfa18.png">
+![👟_sneak-a-peek](https://user-images.githubusercontent.com/80851741/191583834-babae580-bf10-4a49-9235-4ba670a2cda1.png)
 
-
-👋🏽 Welcome to **"👟sneak-a-peek"**, a modern looking buy & sell sneaker e-commerce platform with the latest trendy shoes and deals for you!
+👋🏽 Welcome to **"👟sneak-a-peek"**, a modern looking buy & sell sneaker e-commerce platform with the latest shoes and deals for you!
+_________________________________
 
 Feel free to take a look at the website and its future plans ⬇️
+## Website
 
 <img width="1414" alt="Screen Shot 2022-08-24 at 10 35 50 PM" src="https://user-images.githubusercontent.com/80851741/186575952-44495255-734d-4dec-94ac-4abc0e34899e.png">
 <img wid![Uploading Screen Shot 2022-08-24 at 10.35.50 PM.png…]()
@@ -15,8 +16,7 @@ th="1424" alt="Screen Shot 2022-08-24 at 10 15 55 PM" src="https://user-images.g
 <img width="1417" alt="Screen Shot 2022-08-24 at 10 23 18 PM" src="https://user-images.githubusercontent.com/80851741/186575798-36f08fe6-efce-478f-af8c-d8785deca148.png">
 <img width="1424" alt="Screen Shot 2022-08-24 at 10 22 43 PM" src="https://user-images.githubusercontent.com/80851741/186575802-859e63e5-ffab-4ab9-80a7-ddda64ec3e64.png">
 
-
-**Future Plans:**
+## Future Plans
 1. Add a backend to the website to be able to "buy" shoes and keep the sold shoes & the buyers info in a databse.
 2. Implement a "My Cart" functionality that is commonly seen in e-commerce platforms.
 3. Turn this into my personal fully functional e-commerce platform to sell desired products.
